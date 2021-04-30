@@ -1,0 +1,4 @@
+tensorflow-text==2.4.0rc0
+Flask
+tensorflow_hub
+numpy
