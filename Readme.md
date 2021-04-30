@@ -1,4 +1,4 @@
-# Deploying a python model as a service and calling it from a Java cde
+# Deploying a python model as a service and calling it from a Java program
 
 In this small project, I deploy Muse (Multilingual Universal Sentence Encoder) as a service in python using Flask and I request it from Java. 
 
