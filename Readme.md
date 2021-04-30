@@ -1,6 +1,8 @@
-# Deploying a python model as a service a calling it from Java
+# Deploying a python model as a service and calling it from a Java cde
 
-In this simple project, I deploy Muse (Multilingual Universal Sentence Encoder) as a service (transforming a sentence in any language into an embedding) in python using Flask and I request it from Java. 
+In this small project, I deploy Muse (Multilingual Universal Sentence Encoder) as a service in python using Flask and I request it from Java. 
+
+The python service transforms a sentence (16 languages) into an embedding (vector).
 
 ## Requirements 
 
@@ -50,6 +52,6 @@ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET
 
 2) Compile and run Requester.java.
 
-3) You can change the sentence ("Bonjour ca va") here :
+3) You can change the sentence ("Bonjour ca va") in the following line in the main method :
 
 `` System.out.println(myEmbeddingRequester.getResponse("Bonjour ça va"));``
